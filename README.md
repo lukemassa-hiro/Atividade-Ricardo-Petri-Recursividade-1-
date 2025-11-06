@@ -1,4 +1,7 @@
 # Projeto: Vetor com Recursão (preencher, exibir e somar)
+Docente: Ricardo Petri
+Discente: Giovanne Poloni, Lucas Massahiro Obuchi, Carlos Vinícius.
+
 
 Este projeto em Java tem como objetivo demonstrar o uso de **recursão** em operações básicas com vetores. A aplicação trabalha com três operações principais:
 
