@@ -1,5 +1,7 @@
 # Projeto: Vetor com Recursão (preencher, exibir e somar)
 Docente: Ricardo Petri
+
+
 Discente: Giovanne Poloni, Lucas Massahiro Obuchi, Carlos Vinícius.
 
 
