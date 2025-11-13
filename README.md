@@ -137,15 +137,4 @@ O resultado da soma dos elementos é: 17
 
 ---
 
-## Possíveis Melhorias
 
-* Permitir faixa de valores (mínimo e máximo)
-* Adicionar semente aleatória para resultados reproduzíveis
-* Comparar desempenho entre versões recursiva e iterativa
-* Implementar validações de entrada (N negativo, inválido, etc.)
-
----
-
-## Licença
-
-Projeto de uso educacional. Livre para reprodução e modificação com fins acadêmicos.
