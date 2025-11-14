@@ -2,7 +2,7 @@
 Docente: Ricardo Petri
 
 
-Discente: Giovanne Poloni, Lucas Massahiro Obuchi, Carlos Vinícius.
+Discente:Lucas Massahiro Obuchi
 
 
 Este projeto em Java tem como objetivo demonstrar o uso de **recursão** em operações básicas com vetores. A aplicação trabalha com três operações principais:
@@ -21,53 +21,6 @@ O programa solicita ao usuário o tamanho **N** do vetor, gera números aleatór
 
 As operações são realizadas sem o uso de laços de repetição tradicionais (`for` ou `while`), utilizando apenas chamadas de métodos recursivos.
 
----
-
-## Código-Fonte Sugerido
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Informe o tamanho N do vetor: ");
-        int N = sc.nextInt();
-        int[] vetor = new int[N];
-
-        preencherRec(vetor, 0);
-
-        System.out.println("\nOs valores do vetor são:");
-        exibirRec(vetor, 0);
-
-        int soma = somarRec(0, 0, vetor);
-        System.out.println("\nO resultado da soma dos elementos é: " + soma);
-
-        sc.close();
-    }
-
-    private static void preencherRec(int[] vetor, int pos) {
-        if (pos == vetor.length) return;
-        vetor[pos] = (int) (Math.random() * vetor.length);
-        preencherRec(vetor, pos + 1);
-    }
-
-    private static void exibirRec(int[] vetor, int pos) {
-        if (pos == vetor.length) return;
-        System.out.println(vetor[pos]);
-        exibirRec(vetor, pos + 1);
-    }
-
-    private static int somarRec(int soma, int posicao, int[] vetor) {
-        if (posicao == vetor.length) return soma;
-        return somarRec(soma + vetor[posicao], posicao + 1, vetor);
-    }
-}
-```
-
----
 
 ## Estrutura do Projeto
 
@@ -83,30 +36,6 @@ public class Main {
 ## Como Executar
 
 No terminal (dentro da pasta `src`):
-
-```bash
-javac Main.java
-java Main
-```
-
-Exemplo de execução:
-
-```
-Informe o tamanho N do vetor: 7
-
-Os valores do vetor são:
-3
-0
-6
-2
-1
-1
-4
-
-O resultado da soma dos elementos é: 17
-```
-
----
 
 ## Análise de Complexidade
 
